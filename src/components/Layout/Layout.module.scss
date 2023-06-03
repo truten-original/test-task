@@ -1,0 +1,40 @@
+.mainLayout {
+  max-width: 1540px;
+  display: flex;
+  .sideBar {
+    min-width: 6%;
+    min-height: calc(100vh - 80px);
+    border-right: 1px solid #e1e1e1;
+    .imgContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 4vw;
+      height: 4vw;
+      background-color: #e2e2ea;
+      border-radius: 8px;
+      margin-top: 54px;
+      margin-inline: auto;
+      cursor: pointer;
+      .icon {
+        width: 2vw;
+        fill: #9a9ab0;
+      }
+    }
+  }
+  .layout {
+    padding-left: 36px;
+    padding-right: 36px;
+    width: 100%;
+    .title {
+      align-self: baseline;
+      margin-left: 90px;
+      margin-top: 41px;
+      margin-bottom: 20px;
+      font-family: 'Mulish';
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29px;
+    }
+  }
+}

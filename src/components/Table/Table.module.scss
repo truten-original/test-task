@@ -1,0 +1,28 @@
+.table {
+  width: 100%;
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7fc;
+    height: 66px;
+    @media (max-width: 1300px){
+      flex-wrap: wrap;
+      height: auto;
+    }
+    .headerItem {
+      flex: 1 1 110px;
+      text-align: center;
+      padding: 0 5px ;
+      text-overflow: ellipsis;
+      text-align: center;
+      font-family: 'Mulish';
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+      @media (max-width: 1300px){
+        height: 40px;
+      }
+    }
+    
+  }
+}
